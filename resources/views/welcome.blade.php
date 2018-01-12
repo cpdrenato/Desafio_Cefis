@@ -65,6 +65,7 @@
         </style>
     </head>
     <body>
+
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
@@ -88,9 +89,9 @@
                 </div>
 
                 <div class="links">
-                    <!-- <a href="#">Cursos</a> -->
+                    
                   <p class="text-muted">Desafio Web</p>
-                  <p class="text-info">Faça seu login.</p>
+                  <a href="home">Cursos</a>
                     
                 </div>
             </div>

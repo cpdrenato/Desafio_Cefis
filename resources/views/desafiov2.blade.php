@@ -15,7 +15,7 @@
                     @endif
                     <div class="links">
                         
-                        <a href="home">Home</a>
+                        <a href="home">Home</a><a href="desafio">Cursos V1</a>
                     </div>
 
                     
@@ -27,7 +27,9 @@
                           <img align="center" src="../img/logo-cefis-ebooks.png"/>
                     </div>
                     <br>
+                    <div class="row">
                     <desafio></desafio>
+                    </div>
                     <br>
                     
                 </div>

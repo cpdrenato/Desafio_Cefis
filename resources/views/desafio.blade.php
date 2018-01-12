@@ -22,6 +22,21 @@
         
     </head>
     <body>
+        <div class="container" align="center">
+            <nav class="navbar navbar-light bg-faded">
+              <a class="navbar-brand" href="/"><img align="center" width="60px" height="20px"src="../img/logo-cefis-ebooks.png"/></a>
+              <ul class="nav navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="home">Home <span class="sr-only">(current)</span></a>
+                </li>
+                
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+              </ul>
+      
+            </nav>
+        </div>
         <br>
         <div class="container">
         <div class="row">
@@ -31,7 +46,7 @@
 
                     <div class="links">
                         
-                        <a href="home">Home</a>
+                        <a href="home">Home</a><a href="desafiov2">Cursos V2</a>
                     </div>
                     <div class="panel-body">
                        <br>
@@ -47,11 +62,11 @@
                 </div>
                 <a id="cursos-prev" class="left carousel-control" role="button">
                     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                    <span class="sr-only">Prox</span>
+                    <span class="sr-only">left</span>
                 </a>
                 <a id="cursos-next" class="right carousel-control" role="button">
                     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                    <span class="sr-only">Ant</span>
+                    <span class="sr-only">right</span>
                 </a>
             </div>
         

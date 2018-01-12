@@ -4,12 +4,12 @@ $(function () {
         type: 'GET',
         url: 'https://cefis.com.br/api/v1/event',
         dataType: "json",
-        success: montarCarouselCursos
+        success: montarCarousel
     });
 });
 
 //Monta o Carrocel
-function montarCarouselCursos(result) {
+function montarCarousel(result) {
     //Adiciona 
     $.each(result.data, function (key, value) {
         var link = 'https://cefis.com.br/curso/'+value.title.toLocaleLowerCase().replace(' ', '-')+'/'+value.id;
