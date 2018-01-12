@@ -36,4 +36,4 @@ $ npm run dev
 $ npm run watch
 ```
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
-<p align="center"><img src="http://www.programwitherik.com/content/images/2017/01/87ow.png"></p>
+<p align="center"><img width="100px" height="100px"src="http://www.programwitherik.com/content/images/2017/01/87ow.png"></p>
